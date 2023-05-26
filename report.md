@@ -4,8 +4,24 @@
 
 
 ## Introduction
+In this assignment, Bayesian linear regression and Maximum Likelihood Estimaton (MLE) is used to estimate the parameters of a linear model. The assignment consists of two tasks. In the first task, the parameters are estimated using Bayesian linear regression. In the second task, the parameters are estimated using Bayesian linear regression and MLE. The results are compared and discussed.
+
+The goals of the project are to:
+
+- Implement Bayesian linear regression and MLE
+- Obtain the posterior probability
+- Examine prior and posterior over w
+- Examine how adding more data points and varying the noise level affects the models
+- Use batch learning
+
 
 ## Method
+For both tasks, Python was used.
+- Jupiter Notebook
+- Numpy
+- Matplotlib
+- osv
+
 
 ## Result
 
