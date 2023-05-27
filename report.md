@@ -31,7 +31,8 @@ For both tasks, Python was used. The code is available in the files [`warmup.ipy
 Task 2
 ____
 
-**2.1 och 2.2**
+**2.1 och 2.2**  
+  
 ![The plotted data](plot1.png)  
 The plotted data. 
 ![Another angle, where the location of test vs training data is visible ](plot2.png)   
