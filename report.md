@@ -136,8 +136,6 @@ MSE (σ² = 0.6) = 0.556552760694397 </br>
 |MSE (σ² = 0.2, α = 1.5) = 0.22452106396164226 |MSE (σ² = 0.4, α = 1.5) = 0.400761638968057  |MSE (σ² = 0.6, α = 1.5) = 0.6000864367300098
 |MSE (σ² = 0.2, α = 3.0) = 0.18572319863608935 |MSE (σ² = 0.4, α = 3.0) = 0.4069250692467875 |MSE (σ² = 0.6, α = 3.0) = 0.6091084391212728  
 
-Ngt i diskussionen ksk i stil med: For σ² = 0.2, the model performs best when α = 3.0, with an MSE of ~0.1857. This indicates that a higher uncertainty parameter combined with a lower noise variance leads to better predictions. 
-
 </br>
 
 **2.5 A comparsion between the frequentist approach MLE and the Bayesian can be made by comparing the MSE.**
@@ -239,3 +237,15 @@ Mean: 0.02668229540784155</br>
 ## Discussion
 
 The results from task 1 show how adding more datapoints to the likelihood calculation generates models with an increased likelihood of displaying the true parameter values. This is evident as the posterior distributions narrow down with more datapoints, and the linear models align better resulting in a decreasing risk of overfititng or underfitting. Additionally, adding more data points reduces risks the model relying on potential outliers or individual datapoints as well as increases likelihood of capturing underlying patterns leading to more accurate predictions. Combined, this increased information reduces bias and variance by bringing the model closer to the true underlying function. Furthermore when performing the modelling on different values of noise variance (σ²), it is evident that the more noise, i.e. the less precise the data points are, the less precise the posterior distributions will be reflecting the increased uncertainty between the model and the true parameter values. 
+
+Discussing the results of task 2, for σ² = 0.2, the Bayesian Linear regression model performs best when α = 3.0, with an MSE of ~0.1857. This indicates that a higher uncertainty parameter combined with a lower noise variance leads to better predictions.
+
+Comparing Frequentist and Bayesian Linear regression the standard deviation represents the spread or uncertainty of the predictions. In general, the standard deviation tends to be similar between the frequentist and Bayesian approaches for each combination of sigma_squared and alpha.
+
+The mean represents the average prediction and those values differ slightly between the frequentist and Bayesian approaches for each combination of sigma_squared and alpha.
+
+Overall, the differences between the frequentist and Bayesian approaches in terms of standard deviation and mean are relatively small. The Bayesian approach accounts for uncertainty by incorporating the prior distribution over the weight parameters, while the frequentist approach relies solely on the maximum likelihood estimation. However, in this specific scenario, the differences in predictive performance between the two approaches appear to be minimal.
+
+Moreover runnig an algorithm on its test data can lead to overfitting as evident in the last task and is not recommended as the model recognises it all.
+
+Lastly, the training data only incorporate a small middle part of the data set and therefore is not an optimal representation for the entirety of it. Therefor running the test data on the model trained on less than optimal train data can result in inaccurate results which can affect the comparisons between the modelling approaches.    
