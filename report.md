@@ -7,10 +7,10 @@
 ## Introduction
 In this assignment, Bayesian linear regression and Maximum Likelihood Estimaton (MLE) is used to estimate the parameters of a linear model. The assignment consists of two tasks. In the first task, the parameters are estimated using Bayesian linear regression. In the second task, the parameters are estimated using Bayesian linear regression and MLE. The results are compared and discussed.
 
-The goals of the project are to
+**Goals**
 
 - Task 1
-  - Implement Bayesian linear regression
+  - Implement Bayesian linear regression in a 
   - Obtain the posterior probability
   - Examine prior and posterior over w
   - Examine how adding more data points and varying the noise level affects the accuracy
