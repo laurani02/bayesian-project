@@ -109,14 +109,13 @@ The posterior distribution becomes more concentrated and localized the more data
 ____
 **2.1 och 2.2**  
   
-![The plotted data](plot1.png)  
+![2.1](2.1.png)  
 *The plotted data.*
   
-![Another angle, where the location of test vs training data is visible ](plot2.png)   
+![2.2](2.2.png)   
 *Another angle, where the location of test vs training data is visible. The division is |x1| > 0.3 and |x2| > 0.3 is test.*
 
 </br>
-
 
 **2.3 Model fitting with MLE, sigma ∈ {0.2, 0.4, 0.6}**
 
@@ -129,7 +128,6 @@ MSE (σ² = 0.6) = 0.556552760694397 </br>
 
 </br>
 
-
 **2.4 Bayesian linear regression with different values of the uncertainty parameter of the Gaussian prior over the weight parameters (α ∈ {0.7, 1.5, 3.0})**
   
 |σ² = 0.2 </br>                                | σ² = 0.4                                    |σ² = 0.6
@@ -141,7 +139,6 @@ MSE (σ² = 0.6) = 0.556552760694397 </br>
 Ngt i diskussionen ksk i stil med: For σ² = 0.2, the model performs best when α = 3.0, with an MSE of ~0.1857. This indicates that a higher uncertainty parameter combined with a lower noise variance leads to better predictions. 
 
 </br>
-
 
 **2.5 A comparsion between the frequentist approach MLE and the Bayesian can be made by comparing the MSE.**
 
@@ -164,7 +161,6 @@ MSE (σ² = 0.6, α = 1.5) = 0.6000864367300098
 MSE (σ² = 0.6, α = 3.0) = 0.6091084391212728  
 
 </br>
-
 
 **2.6 Generate predictions also for the training data and compare the uncertainty between the training and test data samples. How does uncertainty (standard deviation) and the quality (mean) of these 2 predictions change with varying α and σ.**
 
@@ -240,10 +236,6 @@ Bayesian - Test Data</br>
 Std: 1.039557899736239</br>
 Mean: 0.02668229540784155</br>
 
-
-
-____
-
 ## Discussion
 
-vi har lärt oss grejer :)
+The results from task 1 show how adding more datapoints to the likelihood calculation generates models with an increased likelihood of displaying the true parameter values. This is evident as the posterior distributions narrow down with more datapoints, and the linear models align better resulting in a decreasing risk of overfititng or underfitting. Additionally, adding more data points reduces risks the model relying on potential outliers or individual datapoints as well as increases likelihood of capturing underlying patterns leading to more accurate predictions. Combined, this increased information reduces bias and variance by bringing the model closer to the true underlying function. Furthermore when performing the modelling on different values of noise variance (σ²), it is evident that the more noise, i.e. the less precise the data points are, the less precise the posterior distributions will be reflecting the increased uncertainty between the model and the true parameter values. 
