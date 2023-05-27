@@ -26,8 +26,8 @@ In this assignment, Bayesian linear regression and Maximum Likelihood Estimaton 
 ## Method
 For both tasks, Python was used. The code is available in the files [`warmup.ipynb`](https://github.com/laurani02/bayesian-project/blob/main/warmup.ipynb) and [`bayesian.ipynb`](https://github.com/laurani02/bayesian-project/blob/main/bayesian.ipynb). The imported and used libraries are scipy, numpy and matplotlib. While SciPy is used in task 1 for multivariate normal distribution and distance calculation, NumPy and Matplotlib are used in both tasks for calculations and visualisation.
 
-## Result
-____
+## Results
+
 
 ### Task 1
 
@@ -44,7 +44,7 @@ ____
 The plotted data. 
   
 ![Another angle, where the location of test vs training data is visible ](plot2.png)   
-Another angle, where the location of test vs training data is visible.
+Another angle, where the location of test vs training data is visible. The division is |x1| > 0.3 and |x2| > 0.3 is test.
 
 **2.3 Model fitting with MLE, sigma ∈ {0.2, 0.4, 0.6}**
 
