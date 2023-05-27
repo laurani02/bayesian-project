@@ -32,10 +32,10 @@ Task 2
 ____
 
 **2.1 och 2.2**
-![The plotted data](plot1.png)
-The plotted data
-![Another angle, where the location of test vs training data is visible ](plot2.png) 
-Another angle, where the location of test vs training data is visible
+![The plotted data](plot1.png)  
+The plotted data. 
+![Another angle, where the location of test vs training data is visible ](plot2.png)   
+Another angle, where the location of test vs training data is visible.
 
 **2.3 Model fitting with MLE, sigma ∈ {0.2, 0.4, 0.6}**
 
