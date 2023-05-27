@@ -76,7 +76,7 @@ MSE (σ² = 0.6, α = 3.0) = 0.6091084391212728
 Minsta error är när sigma = 0.2 (once again surprise not) 
 Ngt i diskussionen ksk i stil med: For σ² = 0.2, the model performs best when α = 3.0, with an MSE of ~0.1857. This indicates that a higher uncertainty parameter combined with a lower noise variance leads to better predictions. 
 
-**2.5 A comparsion between the frequentist approach MLE and the Bayesian can be made by comparing the MSE. **
+**2.5 A comparsion between the frequentist approach MLE and the Bayesian can be made by comparing the MSE.**
 
 
 **MLE**
