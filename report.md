@@ -35,6 +35,7 @@ ____
   
 ![The plotted data](plot1.png)  
 The plotted data. 
+  
 ![Another angle, where the location of test vs training data is visible ](plot2.png)   
 Another angle, where the location of test vs training data is visible.
 
