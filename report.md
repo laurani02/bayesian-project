@@ -30,10 +30,12 @@ For both tasks, Python was used. The code is available in the files [`warmup.ipy
 
 Task 2
 ____
-![The plotted data](plot1.png)
-![Another angle, where the location of test vs training data is visible ](plot2.png) 
 
-Plotted data from 2.1 and 2.2 är plot1
+**2.1 och 2.2**
+![The plotted data](plot1.png)
+The plotted data
+![Another angle, where the location of test vs training data is visible ](plot2.png) 
+Another angle, where the location of test vs training data is visible
 
 **2.3 Model fitting with MLE, sigma ∈ {0.2, 0.4, 0.6}**
 
