@@ -27,14 +27,16 @@ In this assignment, Bayesian linear regression and Maximum Likelihood Estimaton 
 For both tasks, Python was used. The code is available in the files [`warmup.ipynb`](https://github.com/laurani02/bayesian-project/blob/main/warmup.ipynb) and [`bayesian.ipynb`](https://github.com/laurani02/bayesian-project/blob/main/bayesian.ipynb). The imported and used libraries are scipy, numpy and matplotlib. While SciPy is used in task 1 for multivariate normal distribution and distance calculation, NumPy and Matplotlib are used in both tasks for calculations and visualisation.
 
 ## Result
-
-Task 1
 ____
 
-text here
+### Task 1
 
-Task 2
+saker
+
 ____
+
+### Task 2
+
 
 **2.1 och 2.2**  
   
