@@ -50,14 +50,17 @@ MSE (σ² = 0.6) = 0.556552760694397
 Minsta error är när sigma = 0.2 (surprise not)
 
 **2.4 Bayesian linear regression with different values of the uncertainty parameter of the Gaussian prior over the weight parameters (α ∈ {0.7, 1.5, 3.0})**
+  
 σ² = 0.2
 MSE (σ² = 0.2, α = 0.7) = 0.1971494682678761
 MSE (σ² = 0.2, α = 1.5) = 0.22452106396164226
 MSE (σ² = 0.2, α = 3.0) = 0.18572319863608935
+  
 σ² = 0.4
 MSE (σ² = 0.4, α = 0.7) = 0.3981424796062423
 MSE (σ² = 0.4, α = 1.5) = 0.400761638968057
 MSE (σ² = 0.4, α = 3.0) = 0.4069250692467875
+  
 σ² = 0.6
 MSE (σ² = 0.6, α = 0.7) = 0.6091655155964246
 MSE (σ² = 0.6, α = 1.5) = 0.6000864367300098
