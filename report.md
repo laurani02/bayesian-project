@@ -27,18 +27,86 @@ In this assignment, Bayesian linear regression and Maximum Likelihood Estimaton 
 For both tasks, Python was used. The code is available in the files [`warmup.ipynb`](https://github.com/laurani02/bayesian-project/blob/main/warmup.ipynb) and [`bayesian.ipynb`](https://github.com/laurani02/bayesian-project/blob/main/bayesian.ipynb). The imported and used libraries are scipy, numpy and matplotlib. While SciPy is used in task 1 for multivariate normal distribution and distance calculation, NumPy and Matplotlib are used in both tasks for calculations and visualisation.
 
 ## Result
-Task 1
+
+### Task 1
 ____
 **1.1**
 
 ![Task 1.1](1.1.png) </br>
-*Prior distribution over w*
+*1.1: Prior distribution over w.*
 
-____
+</br>
+
+**1.2**
+
+![Task 1.2](1.2.png) </br>
+*1.2: Posterior distribution over w for single data point.*
+
+</br>
+
+
+**1.3**
+
+![Task 1.3](1.3.png) </br>
+*1.3: 5 model samples drawn from posterior obtained in 1.2.*
+
+</br>
+
+**1.4**
+
+![Task 1.4.1](1.4.1.png "Task 1.4.1") </br>
+*1.4.1: Posterior distribution over w for two data points.*
+
+![Task 1.4.2](1.4.2.png) </br>
+*1.4.2: 5 model samples drawn from posterior obtained in 1.4.1*
+
+![Task 1.4.3](1.4.3.png) </br>
+*1.4.3: Posterior distribution over w for three data points.*
+
+![Task 1.4.4](1.4.4.png) </br>
+*1.4.4: 5 model samples drawn from posterior obtained in 1.4.3*
+
+![Task 1.4.5](1.4.5.png) </br>
+*1.4.5: Posterior distribution over w for four data points.*
+
+![Task 1.4.6](1.4.6.png) </br>
+*1.4.6: 5 model samples drawn from posterior obtained in 1.4.5*
+
+![Task 1.4.7](1.4.7.png) </br>
+*1.4.7: Posterior distribution over w for five data points.*
+
+![Task 1.4.8](1.4.8.png) </br>
+*1.4.8: 5 model samples drawn from posterior obtained in 1.4.7*
+
+![Task 1.4.9](1.4.9.png) </br>
+*1.4.9: Posterior distribution over w for six data points.*
+
+![Task 1.4.10](1.4.10.png) </br>
+*1.4.10: 5 model samples drawn from posterior obtained in 1.4.9*
+
+![Task 1.4.11](1.4.11.png) </br>
+*1.4.11: Posterior distribution over w for seven data points.*
+
+![Task 1.4.12](1.4.12.png) </br>
+*1.4.12: 5 model samples drawn from posterior obtained in 1.4.11*
+
+</br>
+
+**1.5**
+
+The posterior distribution becomes more concentrated and localized the more datapoints you add. The linear models show less variability as more datapoints are added.
+
+</br>
+
+**1.6**           
+
+| $\sigma ^2$ = 0.1                | $\sigma^2$ = 0.4                 | $\sigma ^2$ = 0.8                |
+| ---------------------------------|----------------------------------|----------------------------------|
+| ![Task 1.4.11](1.4.11.png) </br> | ![Task 1.6.2](1.6.2.png) </br> | ![Task 1.6.4](1.6.4.png) </br> |
+| ![Task 1.6.1](1.6.1.png)  </br>  | ![Task 1.6.3](1.6.3.png) </br> | ![Task 1.6.5](1.6.5.png) </br> |
 
 ### Task 2
-
-
+____
 **2.1 och 2.2**  
   
 ![The plotted data](plot1.png)  
@@ -46,6 +114,9 @@ The plotted data.
   
 ![Another angle, where the location of test vs training data is visible ](plot2.png)   
 Another angle, where the location of test vs training data is visible. The division is |x1| > 0.3 and |x2| > 0.3 is test.
+
+</br>
+
 
 **2.3 Model fitting with MLE, sigma ∈ {0.2, 0.4, 0.6}**
 
@@ -56,6 +127,9 @@ MSE (σ² = 0.4) = 0.4491506427837673
 MSE (σ² = 0.6) = 0.556552760694397
 
 Minsta error är när sigma = 0.2 (surprise not)
+
+</br>
+
 
 **2.4 Bayesian linear regression with different values of the uncertainty parameter of the Gaussian prior over the weight parameters (α ∈ {0.7, 1.5, 3.0})**
   
@@ -77,8 +151,10 @@ MSE (σ² = 0.6, α = 3.0) = 0.6091084391212728
 Minsta error är när sigma = 0.2 (once again surprise not) 
 Ngt i diskussionen ksk i stil med: For σ² = 0.2, the model performs best when α = 3.0, with an MSE of ~0.1857. This indicates that a higher uncertainty parameter combined with a lower noise variance leads to better predictions. 
 
-**2.5 A comparsion between the frequentist approach MLE and the Bayesian can be made by comparing the MSE.**
+</br>
 
+
+**2.5 A comparsion between the frequentist approach MLE and the Bayesian can be made by comparing the MSE.**
 
 **MLE**
 
@@ -100,6 +176,9 @@ MSE (σ² = 0.6, α = 3.0) = 0.6091084391212728
   
 Inte så stor skillnad. 
 Minsta felet är det inte stor skillnad på, men största felet är större med Bayesian än MLE.
+
+</br>
+
 
 **2.6 Generate predictions also for the training data and compare the uncertainty between the training and test data samples. How does uncertainty (standard deviation) and the quality (mean) of these 2 predictions change with varying α and σ.**
 
