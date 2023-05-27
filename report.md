@@ -1,8 +1,8 @@
-## SF1935 Probability Theory and Statistics with Application to Machine Learning
-# Project in Bayesian linear regression
-### Laura Nilsson och Leo Svanemar 
-### 2023-05-26
-
+# <p style="text-align: center;">Project in Bayesian linear regression</p>
+### <p style="text-align: center;">Laura Nilsson och Leo Svanemar</p>
+### <p style="text-align: center;">2023-05-26</p>
+### <p style="text-align: center;">SF1935 Probability Theory and Statistics with Application to Machine Learning</p>
+____
 
 ## Introduction
 In this assignment, Bayesian linear regression and Maximum Likelihood Estimaton (MLE) is used to estimate the parameters of a linear model. The assignment consists of two tasks. In the first task, the parameters are estimated using Bayesian linear regression. In the second task, the parameters are estimated using Bayesian linear regression and MLE. The results are compared and discussed.
@@ -27,6 +27,12 @@ In this assignment, Bayesian linear regression and Maximum Likelihood Estimaton 
 For both tasks, Python was used. The code is available in the files [`warmup.ipynb`](https://github.com/laurani02/bayesian-project/blob/main/warmup.ipynb) and [`bayesian.ipynb`](https://github.com/laurani02/bayesian-project/blob/main/bayesian.ipynb). The imported and used libraries are scipy, numpy and matplotlib. While SciPy is used in task 1 for multivariate normal distribution and distance calculation, NumPy and Matplotlib are used in both tasks for calculations and visualisation.
 
 ## Result
+Task 1
+____
+**1.1**
+
+![Task 1.1](1.1.png) </br>
+*Prior distribution over w*
 
 Task 2
 ____
