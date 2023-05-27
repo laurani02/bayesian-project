@@ -10,7 +10,7 @@ In this assignment, Bayesian linear regression and Maximum Likelihood Estimaton 
 **Goals**
 
 - Task 1
-  - Implement Bayesian linear regression in a 
+  - Implement Bayesian linear regression with one-dimensional input
   - Obtain the posterior probability
   - Examine prior and posterior over w
   - Examine how adding more data points and varying the noise level affects the accuracy
@@ -20,7 +20,6 @@ In this assignment, Bayesian linear regression and Maximum Likelihood Estimaton 
   - Examine how varying the noise level and weight parameters affects the model accuracy
   - Examine how training data and test data are affected by those
   - Use batch learning to estimate the parameters
-
 
 
 
