@@ -1,7 +1,8 @@
-# <p style="text-align: center;">Project in Bayesian linear regression</p>
-### <p style="text-align: center;">Laura Nilsson och Leo Svanemar</p>
-### <p style="text-align: center;">2023-05-26</p>
 ### <p style="text-align: center;">SF1935 Probability Theory and Statistics with Application to Machine Learning</p>
+# <p style="text-align: center;">Short report on project assignment</p>
+### <p style="text-align: center;">Bayesian linear regression</p>
+## <p style="text-align: center;">Leo Svanemar, Laura Nilsson</p>
+### <p style="text-align: center;">2023-05-27</p>
 ____
 
 ## Introduction
