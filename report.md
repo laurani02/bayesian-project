@@ -5,7 +5,7 @@
 ### <p style="text-align: center;">2023-05-27</p>
 ____
 
-## Introduction
+## Introduction - objectves and scope
 In this assignment, Bayesian linear regression and Maximum Likelihood Estimaton (MLE) is used to estimate the parameters of a linear model. The assignment consists of two tasks. In the first task, the parameters are estimated using Bayesian linear regression. In the second task, the parameters are estimated using Bayesian linear regression and MLE. The results are compared and discussed.
 
 **Goals**
@@ -27,7 +27,7 @@ In this assignment, Bayesian linear regression and Maximum Likelihood Estimaton 
 ## Method
 For both tasks, Python was used. The code is available in the files [`warmup.ipynb`](https://github.com/laurani02/bayesian-project/blob/main/warmup.ipynb) and [`bayesian.ipynb`](https://github.com/laurani02/bayesian-project/blob/main/bayesian.ipynb). The imported and used libraries are scipy, numpy and matplotlib. While SciPy is used in task 1 for multivariate normal distribution and distance calculation, NumPy and Matplotlib are used in both tasks for calculations and visualisation.
 
-## Result
+## Results and discussion
 
 ### Task 1
 ____
@@ -235,8 +235,6 @@ Bayesian - Test Data</br>
 Std: 1.039557899736239</br>
 Mean: 0.02668229540784155</br>
 
-## Discussion
-
 The results from task 1 show how adding more datapoints to the likelihood calculation generates models with an increased likelihood of displaying the true parameter values. This is evident as the posterior distributions narrow down with more datapoints, and the linear models align better resulting in a decreasing risk of overfititng or underfitting. Additionally, adding more data points reduces risks the model relying on potential outliers or individual datapoints as well as increases likelihood of capturing underlying patterns leading to more accurate predictions. Combined, this increased information reduces bias and variance by bringing the model closer to the true underlying function. Furthermore when performing the modelling on different values of noise variance (σ²), it is evident that the more noise, i.e. the less precise the data points are, the less precise the posterior distributions will be reflecting the increased uncertainty between the model and the true parameter values. 
 
 Discussing the results of task 2, for σ² = 0.2, the Bayesian Linear regression model performs best when α = 3.0, with an MSE of ~0.1857. This indicates that a higher uncertainty parameter combined with a lower noise variance leads to better predictions.
@@ -249,4 +247,8 @@ Overall, the differences between the frequentist and Bayesian approaches in term
 
 Moreover runnig an algorithm on its test data can lead to overfitting as evident in the last task and is not recommended as the model recognises it all.
 
-Lastly, the training data only incorporate a small middle part of the data set and therefore is not an optimal representation for the entirety of it. Therefor running the test data on the model trained on less than optimal train data can result in inaccurate results which can affect the comparisons between the modelling approaches.    
+Lastly, the training data only incorporate a small middle part of the data set and therefore is not an optimal representation for the entirety of it. Therefor running the test data on the model trained on less than optimal train data can result in inaccurate results which can affect the comparisons between the modelling approaches.
+
+## Final remarks
+
+The lab was confusing at first getting introduced to the new modelling but it was not all too unfamiliar, as both authors had some knowledge about statistical and probability modelling as well as how to write ML code from previous courses and the rest of SF1935. The simluation outcomes are based on small datasets and due to the discrepancies between training and testing data outcomes cannot be expected to 100% adhere to the theory which in itself is another experience. 
