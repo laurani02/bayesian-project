@@ -62,21 +62,24 @@ In task 2, Bayesian linear regression and MLE are implemented in a multidimensio
 Before model development, the data was plotted to get an overview. In plot 2.1, the data is plotted and the location of the test and training data is visible. The data where |x1| > 0.3 and |x2| > 0.3 is kept for test. The rest of the data is used for training.
 
 
-![2.1](2.2.png)   
-*A plot of the data, where the location of test vs training data is visible. Data where |x1| > 0.3 and |x2| > 0.3 is kept for test.*
+![Task 2.1](plot1.png "The data") </br>
+*2.2 Divide of test and training data.*
 
 
 **Comparing Frequentist and Bayesian approach**
 
 A comparsion between the frequentist approach MLE and the Bayesian is done by comparing the mean squared error (MSE), the squared difference between the true and predicted values, when tested. A lower MSE value implies that the model is more accurate. In addition to different noise levels (σ^2), the Bayesian model has different uncertainty levels (α) and the results are compared for different combinations of noise and uncertainty levels.  
 
-The differences in predictive performance between the two approaches appear to be minimal. While the Baysian approach had a slightly lower MSE than the frequentist approach when noise was set to σ² = 0.2 (either α = 3.0 or α = 0.7) and σ² = 0.4 ( for all α ), the differences between the models were not significant. Only in the case of σ² = 0.6, the frequentist approach had a lower MSE than the Bayesian approach for all uncertinty levels.  
-
-A general trend is that the MSE increases with increasing noise level. This is expected as the noise level is the variance of the noise and the noise is added to the data. The higher the noise level, the more the data is affected and the less accurate the model becomes. Not much can be said about how the different values of the uncertainty parameter α makes the model behave since it has differed between tests.
-
-**Batch learning**
+The differences in predictive performance between the two approaches appear to be minimal. While the Baysian approach had a slightly lower MSE than the frequentist approach when noise was set to σ² = 0.2 (either α = 3.0 or α = 0.7) and σ² = 0.4 ( for all α ), the differences between the models were not significant. Only in the case of σ² = 0.6, the frequentist approach had a lower MSE than the Bayesian approach for all uncertinty levels.   
   
-The model learned from the available training data. As visible in plot 2.1, the training and test data is not evenly distributed in the room. When testing the Bayesian model on the training vs test data, naturally the model has very different predictions for the two types. 
+A general trend is that the MSE increases with increasing noise level. This is expected as the noise level is the variance of the noise and the noise is added to the data. The higher the noise level, the more the data is affected and the less accurate the model becomes. Not much can be said about how the different values of the uncertainty parameter α makes the model behave since it has differed between tests.  
+  
+**Batch learning**
+    
+The Bayesian model learned from the available training data. As visible in plot 2.2, the training and test data is not evenly distributed in the room. When testing the Bayesian model on the training vs test data, naturally the model has very different predictions for the two types. 
+
+![Task 2.2](plot2.png "The data") </br>
+*2.2 Divide of test and training data.*
 
 
 ## Final remarks
