@@ -76,7 +76,7 @@ A general trend is that the MSE increases with increasing noise level. This is e
   
 **Batch learning**
     
-The Bayesian model learned from the available training data. As visible in plot 2.2, the training and test data is not evenly distributed in the room. When testing the Bayesian model on the training vs test data, naturally the model has very different predictions for the two types. 
+The Bayesian model learned from the available training data. As visible in plot 2.2, the training and test data is not evenly distributed in the room. When testing the Bayesian model on the training versus test data, naturally the model has very different predictions for the two types. In addition to this, there is a risk that the model tested on training data is overfitted and should preferably not be evaluated by data it already has been trained on.
 
 ![Task 2.2](plot2.png "The data") </br>
 *2.2 Divide of test and training data.*
@@ -84,4 +84,4 @@ The Bayesian model learned from the available training data. As visible in plot 
 
 ## Final remarks
 
-The lab was confusing at first when getting introduced to the new modelling but it was not all too unfamiliar, as both authors had some knowledge about statistical and probability modelling as well as how to write some machine learning code from previous courses and the rest of SF1935. The simluation outcomes are based on small datasets and due to the discrepancies between training and testing data outcomes cannot be expected to 100% adhere to the theory which is reasonable. 
+The lab was confusing at first when getting introduced to the new modelling but it was not all too unfamiliar, as both authors had some knowledge about statistical and probability modelling as well as how to write some machine learning code from previous courses and the rest of SF1935. The simluation outcomes are based on small datasets and due to the discrepancies between training and testing data outcomes cannot be expected to 100% adhere to the theory which is reasonable. It has been a good opportunity of learn more about the applications of statistics.
