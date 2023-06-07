@@ -63,7 +63,7 @@ Before model development, the data was plotted to get an overview. In plot 2.1, 
 
 
 ![Task 2.1](plot1.png "The data") </br>
-*2.2 Divide of test and training data.*
+*2.1 The data in the room.*
 
 
 **Comparing Frequentist and Bayesian approach**
